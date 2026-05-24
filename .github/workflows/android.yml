@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build with Buildozer
-        uses: ArtemSerebriennikov/buildozer-action@v1
+        uses: kusyarif/buildozer-action@v0.1
         with:
           buildozer_version: master
           command: buildozer android debug
@@ -17,4 +17,5 @@ jobs:
         with:
           name: package
           path: bin/*.apk
+
           
