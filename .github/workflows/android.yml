@@ -1,5 +1,7 @@
 name: Build APK
+
 on: [push, pull_request]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,4 +17,5 @@ jobs:
         with:
           name: package
           path: bin/*.apk
-          
+
+  
