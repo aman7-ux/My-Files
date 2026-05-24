@@ -15,3 +15,4 @@ android.sdk = 31
 android.ndk = 23b
 android.arch = arm64-v8a
 p4a.branch = master
+
